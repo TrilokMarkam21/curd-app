@@ -6,7 +6,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node src/server.js"
+    "start": "node src/server.js"
   },
   "keywords": [
     "JavaScript",
@@ -15,5 +15,13 @@
     "MongoDB"
   ],
   "author": "Trilok Singh Markam",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
